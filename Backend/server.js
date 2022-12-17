@@ -1,10 +1,10 @@
 //import username from './credentials'
 //import password from './credentials'
 
-const username = "wajeehrehman"
-const password = "piODopKT4wMu64Ds"
-const cluster = "cluster0"
-const dbname = "Tasks_DB"
+const username = "username"
+const password = "password"
+const cluster = "clustername"
+const dbname = "Dbname"
 const express = require('express');
 const mongoose = require('mongoose')
 const Router = require("./routes")
