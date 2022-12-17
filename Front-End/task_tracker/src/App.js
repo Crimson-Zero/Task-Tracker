@@ -1,17 +1,13 @@
-import './styles/App.css'
-import TaskForm from './components/TaskForm';
-
-
+import { Routes,Route } from "react-router-dom";
+import FrontPage from "./components/FrontPage";
+import TaskPage from "./components/TaskPage";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p id ="Heading">
-          Welcome to the Task Tracker Application
-        </p>
-        <TaskForm/>
-      </header>
-
+    <div>
+      <Routes>
+        <Route exact path="/" element={<FrontPage />} />
+        <Route exact path="/TaskPage" element={<TaskPage />} />
+      </Routes>
     </div>
   );
 }

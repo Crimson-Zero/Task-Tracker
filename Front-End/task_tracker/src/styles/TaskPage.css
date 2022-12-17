@@ -1,0 +1,20 @@
+body{
+    background-color: #282c34;
+}
+#heading {
+    text-align: center; 
+    color: blue;
+  }
+
+  table {
+    width: 100%;
+}
+table, td {
+    border: solid black 1px;
+}
+
+#Home{
+    background-color: blue;
+    text-align: center;
+
+}

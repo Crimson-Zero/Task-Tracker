@@ -1,3 +1,18 @@
+
 .listitem{
     list-style: none;
+}
+#Add_task,#View_Task{
+    background-color: blue;
+
+}
+
+#Error{
+    font-size: 6; 
+    color: red;
+}
+
+#confirm{
+    font-size: 6; 
+    color: green;
 }
