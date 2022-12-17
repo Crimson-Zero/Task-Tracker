@@ -1,6 +1,3 @@
-//import username from './credentials'
-//import password from './credentials'
-
 const username = "username"
 const password = "password"
 const cluster = "clustername"
