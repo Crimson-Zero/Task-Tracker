@@ -1,2 +1,2 @@
 # Task-Tracker
-A task tracker application developed using the MERN Stack 
+A task tracker/todo application developed using the MERN Stack 
